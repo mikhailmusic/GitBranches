@@ -9,5 +9,8 @@ public class Main {
         int first = Integer.parseInt(sc.nextLine());
         System.out.print("Введите второе число: ");
         int second = Integer.parseInt(sc.nextLine());
+
+        System.out.print("Введите знак операции (+, -, *, /): ");
+        char operation = sc.nextLine().charAt(0);
     }
 }
