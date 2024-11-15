@@ -12,5 +12,7 @@ public class Main {
 
         System.out.print("Введите знак операции (+, -, *, /): ");
         char operation = sc.nextLine().charAt(0);
+
+        System.out.println("Выражение: " + first + " " + operation + " " + second);
     }
 }
